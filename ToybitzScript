@@ -44,6 +44,6 @@ systemctl start vpnserver
 printf "\nCleaning up...\n\n"
 cd && rm -rf /tmp/softether-autoinstall > /dev/null 2>&1
 systemctl status vpnserver
-printf "\n${RED}!!! IMPORTANT !!!${NC}\n\nIf the output above shows vpnserver.service to be active (running), then SoftEther VPN has been successfully installed and is now running.\nTo configure the server, use the SoftEther VPN Server Manager."
-printf "\n${RED}!!! Softether for SUN TU Promo by Toybitz Cruz !!!${NC}"
+printf "\n${GREEN}!!! IMPORTANT !!!${NC}\n\nIf the output above shows vpnserver.service to be active (running), then SoftEther VPN has been successfully installed and is now running.\nTo configure the server, use the SoftEther VPN Server Manager."
+printf "\n${GREEN}!!! Softether for SUN TU Promo by Toybitz Cruz !!!${NC}"
 esac
